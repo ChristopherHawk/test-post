@@ -2,16 +2,20 @@ import React from 'react';
 import './index.css'
 
 const Navbar = () => {
-  return (
+
+ const userName =  localStorage.getItem('name_user')
+ const userEmail = localStorage.getItem('email_user')
+ 
+ return (
     <nav className='nav-bar'>
       <div>
-        <p>Pepe perez
+        <p>{userName}
           <br />
-          en línea
+          {userEmail}
         </p>
       </div>
       <div>
-        <input type='search' />
+        <button onClick={() =>  localStorage.setItem('access_token', '')}>Desconectar</button>
       </div>
 
     </nav>
