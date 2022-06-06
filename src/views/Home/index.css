@@ -1,0 +1,39 @@
+.grid-post{
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-auto-rows: 200px;
+  grid-gap: 1rem;
+  grid-auto-flow: row dense;
+  overflow: hidden;
+}
+
+@media (max-width: 1000px) {
+  .grid-post{
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+    grid-auto-flow: row dense;
+    overflow: hidden;
+  }
+}
+@media (max-width: 700px) {
+  .grid-post{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+    grid-auto-flow: row dense;
+    overflow: hidden;
+  }
+}
+@media (max-width: 400px) {
+  .grid-post{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-gap: 1rem;
+    grid-auto-flow: row dense;
+    overflow: hidden;
+  }
+}

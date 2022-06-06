@@ -1,19 +1,11 @@
+import AllRoutes from './routes/index'
+import './App.css'
 
-import { Routes, Route } from "react-router-dom";
-import './App.css';
-import Home from "./views/home";
 
 function App() {
   return (
-    <div>
-   {/*  NavBar  */}
-
-   {/* Routes */}
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
-  </div>
-  );
+    <AllRoutes/>
+  )
 }
 
-export default App;
+export default App
