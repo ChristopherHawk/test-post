@@ -5,3 +5,12 @@
   display:grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.user-info{
+  margin-left: 10px;
+}
+.btn-logout{
+  float:right;
+  margin-top: 10px;
+  border-radius: 10px;
+  outline: none;
+}
