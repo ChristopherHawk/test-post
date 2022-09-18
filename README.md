@@ -17,10 +17,7 @@
  ### paso 2 : 
  Correr el proyecto `npm start`
 
- ## Anexos:
- Proyecto corriendo en `Heroku` en la dirección :
- 
-  https://react-web-testx.herokuapp.com/
+
 
 
 
